@@ -97599,7 +97599,7 @@ L(a){var s=this,r=s.e.gd5()
 return A.xR(s.d.q().a,new A.ej(B.b2,null,B.aL,B.y,A.b([A.pe(new A.aCa(s,r)),s.acq(),s.acs()],t.p),null))},
 Rx(){var s=this,r=null,q=s.d,p=q.q()
 q=q.q()
-return A.a1(r,A.aS(A.b([B.bI,A.a1(r,new A.wx(A.aVx(r,r,new A.AR("mixullClear.png",r,r)),new A.aBW(s),r,64,B.DP,r),B.e,r,r,r,r,r,r,r,B.IZ,r,r,r),B.d1,s.zR(B.JE,s.f==="library","LIBRARY",new A.aBX(s)),B.aF,s.zR(B.qg,s.f==="mixer","MIXER",new A.aBY(s)),B.aF,s.zR(B.JA,s.f==="discovery","DISCOVER",new A.aBZ(s)),B.c6,s.zR(B.pZ,s.f==="dashboard","DASH",new A.aC_(s)),B.bI],t.p),B.o,B.l,B.k),B.e,r,r,new A.a7(q.c,r,new A.bU(B.n,new A.av(p.x,1,B.i,-1),B.n,B.n),r,r,r,B.p),r,r,r,r,r,r,r,80)},
+return A.a1(r,A.aS(A.b([B.bI,A.a1(r,new A.wx(A.aVx(r,r,new A.AR("icons/mixullClear.png",r,r)),new A.aBW(s),r,64,B.DP,r),B.e,r,r,r,r,r,r,r,B.IZ,r,r,r),B.d1,s.zR(B.JE,s.f==="library","LIBRARY",new A.aBX(s)),B.aF,s.zR(B.qg,s.f==="mixer","MIXER",new A.aBY(s)),B.aF,s.zR(B.JA,s.f==="discovery","DISCOVER",new A.aBZ(s)),B.c6,s.zR(B.pZ,s.f==="dashboard","DASH",new A.aC_(s)),B.bI],t.p),B.o,B.l,B.k),B.e,r,r,new A.a7(q.c,r,new A.bU(B.n,new A.av(p.x,1,B.i,-1),B.n,B.n),r,r,r,B.p),r,r,r,r,r,r,r,80)},
 zR(a,b,c,d){var s=null,r=b?this.d.q().b:B.E,q=b?this.d.q().d:B.E,p=this.d,o=A.aD(a,b?p.q().d:p.q().w,s,24)
 return A.cC(!1,s,!0,A.a1(s,A.aS(A.b([o,B.aG,A.L(c,s,s,s,A.K(s,s,b?p.q().d:p.q().w,s,s,s,s,s,"monospace",s,s,10,s,s,s,s,s,!0,s,1,s,s,s,s,s,s),s,s)],t.p),B.o,B.l,B.k),B.e,s,s,new A.a7(r,s,new A.bU(B.n,B.n,B.n,new A.av(q,3,B.i,-1)),s,s,s,B.p),s,s,s,s,B.IG,s,s,1/0),s,!0,s,s,s,s,s,s,s,s,d,s,s,s,s,s)},
 RC(a){var s,r,q,p=this,o=null,n="monospace",m=p.d,l=m.q(),k=m.q(),j=t.p,i=A.b([A.L(p.ahi(),o,o,o,A.K(o,o,m.q().f,o,o,o,o,o,n,o,o,18,o,o,B.u,o,o,!0,o,2,o,o,o,o,o,o),o,o),B.c6],j)
@@ -102739,7 +102739,7 @@ l=A.dl(a3,"/","_")
 window.localStorage.setItem("spotify_code_verifier",m)
 k=B.b.aN(B.M9," ")
 a3=t.z
-j=A.cv("https://accounts.spotify.com/authorize",0,null).a3s(0,A.a5(["client_id","93b750fd42e94cd8878c8bf21bb72f85","response_type","code","redirect_uri","http://127.0.0.1:8080/spotify-callback","scope",k,"code_challenge_method","S256","code_challenge",l],t.N,a3))
+j=A.cv("https://accounts.spotify.com/authorize",0,null).a3s(0,A.a5(["client_id","93b750fd42e94cd8878c8bf21bb72f85","response_type","code","redirect_uri","https://www.mixull.com/spotify-callback","scope",k,"code_challenge_method","S256","code_challenge",l],t.N,a3))
 a5=window
 a5.toString
 i=B.bL.a2F(a5,j.grA(),"spotify_auth","width=500,height=600,scrollbars=yes,resizable=yes")
@@ -102975,7 +102975,7 @@ l=A.cv("https://accounts.spotify.com/api/token",0,null)
 k=t.N
 j=A.a5(["Content-Type","application/x-www-form-urlencoded"],k,k)
 s=7
-return A.m(A.MC(l,A.a5(["grant_type","authorization_code","code",a,"redirect_uri","http://127.0.0.1:8080/spotify-callback","client_id","93b750fd42e94cd8878c8bf21bb72f85","code_verifier",b],k,k),j),$async$x4)
+return A.m(A.MC(l,A.a5(["grant_type","authorization_code","code",a,"redirect_uri","https://www.mixull.com/spotify-callback","client_id","93b750fd42e94cd8878c8bf21bb72f85","code_verifier",b],k,k),j),$async$x4)
 case 7:n=d
 if(n.b===200){l=n
 l=t.P.a(B.a1.bh(0,A.e1(A.e0(l.e)).bh(0,l.w)))
